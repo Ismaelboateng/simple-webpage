@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+
+
+.main{
+justify-content: center;
+align-items: center;
+background-image: url("/images/bk.png");
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+background-size: cover;
+
+
+}
+
+
+        .navbar {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding: 20px 40px;
+        }
+        .logo img {
+            height: 29.46px; 
+        }
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        .nav-links a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 12PX;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #FF6F61; 
+        }
+
+
+
+           .workers-section {
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            margin-top: 7%;
+        }
+        .workers-section h2 {
+            font-size: 136px;
+            margin-bottom: 20px;
+        }
+        .workers-section p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        .circles {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .circle {
+            width: 80px; 
+            height: 80px; /
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.8); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+           
+        }
+         .circle img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%; 
+        } 
+
+
+.register-button {
+    background-color: #C271FF; 
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+
+.register-button:hover {
+    background-color: #ddb9f8;
+
+}
+
+
+.testimonial{
+
+    height: 50vh;
+    width: 100%;
+    background-color: #C271FF;
+    flex-direction: column;
+
+}
+
+   
+        
