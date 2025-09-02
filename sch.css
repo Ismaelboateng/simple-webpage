@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* font-family: 'Courier New', Courier, monospace; 
+    */
+}
+html {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.hero{
+    height: 140vh;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(./images/bk.png);
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    background-size: cover;
+    flex-direction: column;
+}
+
+
+.info{
+    color: white;
+    font-size: 120px;
+    /* font-family: ; */
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.info-text{
+    color: white;
+    font-size: 16px;
+    font-family:monospace;
+    display: flex;
+   
+}
+
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+    
+     
+}
+
+ul{
+    display: flex;
+    gap: 2rem;;
+    padding: 2%;
+
+}
+
+li{
+    font-size: 20px;
+    list-style: none;
+  
+}
+
+
+ a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+ a :hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.company-lg{
+
+padding: 2%;
+
+
+}
+
+.Reg{
+    width: 140px;
+    padding: 12px;
+    background-color: #C271FF;
+    font-size: 11px;
+    border-radius: 50px;
+    margin-top: 2%;
+    border: none;
+   
+}
+
+.Reg:hover{
+    background-color: white;
+}
+
+.lpr{
+
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 25px; 
+  color: white;
+  margin-top: 9%;
+  text-align: center;
+}
+
+span{
+    color:  #C271FF;
+
+;
+}
+
+
+.people{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+  
+    
+}
+ 
+
+
+
+.circles{
+
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    margin-top: 20%;
+    border-radius: 70px;
+    color: white;
+    
+
+}
+
+.circles h1{
+
+    font-size: 10px;
+}
+
+.p-I{
+
+    height: 150px;
+    width: 150px;
+    border-radius:70px ;
+}
+
+
+.testimonial{
+
+height: 300px;
+width: 100%;
+background-color: #C271FF;
+/* margin-top: 1%; */
+justify-content: center;
+display: flex;
+font-size: 15px;
+align-items: center;
+}
+
+
+.tes-cir{
+
+   
+    height: 150px;
+    width: 150px;
+    border-radius:70px ;
+    background-color: aqua;
+    margin:4% ;
+    justify-content: center;
+
+}
+
+
+.tes-im{
+
+    height: 150px;
+    width: 150px;
+    border-radius:70px ;
+}
+
+.tes-p{
+align-items: center;
+text-align: center;
+display: flex;
+justify-content: center;
+color:  #FFFFFF;
+;
+}
+
+
+
+.vd {
+  height: 450px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.tutorials {
+  height: 154px;
+  width: auto;
+  background-color: white;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  gap: 18px;
+  display: flex;  
+  
+}
+
+.video-wrapper {
+  position: relative; 
+  display: inline-block;
+  cursor: pointer;
+  font-size: 9px;
+}
+
+.video-wrapper h1{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+.video-wrapper img {
+  display: block;
+  height: 154px; 
+  border-radius: 4px;
+}
+
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+
+  
+  clip-path: polygon(35% 25%, 75% 50%, 35% 75%);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
+
+.Membership{
+
+    height: 502px;
+    width: 100%;
+    background-color:#032149;
+    display: flex;
+;
+color: white;
+}
+
+
+h1{
+    text-align: center;
+    margin: auto;
+}
