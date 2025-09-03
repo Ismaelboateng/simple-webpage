@@ -23,41 +23,22 @@ html {
 }
 
 .hero{
-    height: 140vh;
+    height: 140svh;
     width: 100%;
     /* background-color: aqua; */
     background-image: url(./images/bk.png);
     align-items: center;
     display: flex;
-    /* justify-content: center; */
     background-size: cover;
     flex-direction: column;
 }
 
 
-.info{
-    color: white;
-    font-size: 120px;
-    /* font-family: ; */
-    margin-top: 20%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    justify-content: center;
-}
-
-.info-text{
-    color: white;
-    font-size: 16px;
-    font-family:monospace;
-    display: flex;
-   
-}
-
 .main-nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: rgb(255, 255, 255);
     
     
      
@@ -70,23 +51,21 @@ ul{
 
 }
 
+
+
+
+
 li{
     font-size: 20px;
     list-style: none;
+    color: white;
   
 }
 
 
- a{
+a{
     text-decoration: none;
-    color: rgb(255, 253, 253);
 }
-
- a :hover{
-    text-decoration: none;
-    color: black;
-}
-
 
 
 .company-lg{
@@ -96,199 +75,203 @@ padding: 2%;
 
 }
 
-.Reg{
-    width: 140px;
-    padding: 12px;
-    background-color: #C271FF;
-    font-size: 11px;
-    border-radius: 50px;
-    margin-top: 2%;
-    border: none;
+
+
+
+/* article */
+.info{
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.GS{
+
+    color: white;
+    font-size: 120px;
+    margin-top: 25%;
+
+}
+
+
+.SGL{
+
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    word-spacing: 20px;
+    
    
 }
 
-.Reg:hover{
+.register{
+      background-color: #C271FF;
+       width: 160px;
+       height: 45px;
+       font-size: 14px;
+    border-radius: 50px;
+    margin-top: 5%;
+    /* padding: 6px; */
+    text-align: center;
+    border:none;
+
+}
+
+:hover.register{
     background-color: white;
 }
 
-.lpr{
+/* artcle */
 
-  font-family: 'Courier New', Courier, monospace; 
-  font-size: 25px; 
-  color: white;
-  margin-top: 9%;
-  text-align: center;
+
+/* learn from the pro */
+.Learn{
+
+    font-size: 25px;
+    margin-top: 12%;
+    color:white;
 }
+
 
 span{
-    color:  #C271FF;
-
-;
+    color:#C271FF;
+   
+   
 }
+/* learn from the pro */
 
+
+
+
+/* images-div */
+
+.images-div{
+
+height: 150px;
+    width: 150px;
+align-items: center;
+display: flex;
+gap: 10px;
+margin-top: 5%;
+justify-content: center;
+border-radius: 120px;
+
+
+}
 
 .people{
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    gap: 30px;
-    flex-direction: row;
-  
-    
-}
- 
-
-
-
-.circles{
-
     height: 150px;
     width: 150px;
-    background-color: aqua;
-    margin-top: 20%;
-    border-radius: 70px;
-    color: white;
-    
-
-}
-
-.circles h1{
-
-    font-size: 10px;
-}
-
-.p-I{
-
-    height: 150px;
-    width: 150px;
-    border-radius:70px ;
+    border-radius: 160px;
 }
 
 
-.testimonial{
+/* images-div */
 
-height: 300px;
-width: 100%;
-background-color: #C271FF;
-/* margin-top: 1%; */
-justify-content: center;
-display: flex;
-font-size: 15px;
-align-items: center;
-}
-
-
-.tes-cir{
-
-   
-    height: 150px;
-    width: 150px;
-    border-radius:70px ;
-    background-color: aqua;
-    margin:4% ;
-    justify-content: center;
-
-}
-
-
-.tes-im{
-
-    height: 150px;
-    width: 150px;
-    border-radius:70px ;
-}
-
-.tes-p{
-align-items: center;
-text-align: center;
-display: flex;
-justify-content: center;
-color:  #FFFFFF;
-;
-}
-
-
-
-.vd {
-  height: 450px;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.tutorials {
-  height: 154px;
-  width: auto;
-  background-color: white;
-  align-items: center;
-  margin: auto;
-  justify-content: space-evenly;
-  gap: 18px;
-  display: flex;  
-  
-}
-
-.video-wrapper {
-  position: relative; 
-  display: inline-block;
-  cursor: pointer;
-  font-size: 9px;
-}
-
-.video-wrapper h1{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 5px;
-    font-family: 'Courier New', Courier, monospace;
-}
+/* testimonial sction */
 
 
 
 
 
-.video-wrapper img {
-  display: block;
-  height: 154px; 
-  border-radius: 4px;
-}
 
 
-.play-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 50%;
-
-  
-  clip-path: polygon(35% 25%, 75% 50%, 35% 75%);
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-
-
-
-
-.Membership{
-
-    height: 502px;
+/* testimonial sction */
+.Testimonial{
+    height: 392px;
     width: 100%;
-    background-color:#032149;
-    display: flex;
-;
-color: white;
+    background-color: #C271FF;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+       font-size: 20px;
+       gap: 20px;  
 }
 
 
-h1{
-    text-align: center;
-    margin: auto;
+
+
+.man{
+      height: 150px;
+    width: 150px;
+    border-radius: 160px;
+    
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    display: flex;
+   flex-direction: column;
+
+
+
+}
+
+
+/* testimonial sction */
+
+/* .Most popular tutorials */
+
+
+
+
+.imgs-div{
+
+height: 250px;
+width: 1228px;
+align-items: center
+;
+display: flex;
+justify-content: center;
+background-color: rgb(255, 255, 255);
+margin-bottom: 1%;
+margin: auto;
+gap: 1%;
+flex-direction: row;
+
+}
+
+
+
+.heading{
+    font-size: 34px;
+    margin-top: 2%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+span{
+    color: #C271FF;
+}
+/* .Most popular tutorials */
+
+/* free membership */
+.Membership{
+    height: 400px;
+    width: 100%;
+    background-color: #071629;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    
+
+;
+
+}
+
+
+
+
+.smile{
+
+    color: white;
+    margin-top: 9%;
+    align-items: center;
+    justify-content: ;
+    height: 50px;
+    
 }

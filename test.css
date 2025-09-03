@@ -18,7 +18,7 @@ body{
 }
 
 .hero{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     padding: 4rem 8rem;
@@ -32,11 +32,17 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    background-color: red;
+    /* padding: ; */
 }
 
 ul{
     display: flex;
     gap: 5rem;
+}
+
+.logo{
+    background-color: white;
 }
 
 li{
@@ -49,6 +55,13 @@ li{
     color: #FFFFFF;
 }
 
+.logo-div{
+    color: blue;
+}
+
+nav{
+    background-color: blue;
+}
 
 .call-to-action{
     display: flex;
@@ -88,6 +101,7 @@ li{
 .team-list{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     font-weight: 700;
     text-transform: capitalize;
@@ -115,6 +129,7 @@ li{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 0.2rem;
     color: #FFFFFF;
 }
