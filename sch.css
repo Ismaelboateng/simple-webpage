@@ -91,7 +91,7 @@ flex-direction: column;
 
     color: white;
     font-size: 120px;
-    margin-top: 25%;
+    margin-top: 15%;
 
 }
 
@@ -129,7 +129,8 @@ flex-direction: column;
 .Learn{
 
     font-size: 25px;
-    margin-top: 12%;
+   padding-top: 6%;
+    padding-bottom: 5%;
     color:white;
 }
 
@@ -139,139 +140,210 @@ span{
    
    
 }
-/* learn from the pro */
 
 
-
-
-/* images-div */
-
-.images-div{
-
-height: 150px;
-    width: 150px;
-align-items: center;
+.image-div{
+width: 100%;
 display: flex;
-gap: 10px;
-margin-top: 5%;
+align-content: center;
 justify-content: center;
-border-radius: 120px;
+text-align: center;
+flex-direction: row;
+gap: 2%;
+}
 
+.staff-people{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+color: #ffffff;
 
 }
 
-.people{
+.staff-img{
     height: 150px;
     width: 150px;
-    border-radius: 160px;
+    border-radius: 80px;
+   
+
 }
 
-
-/* images-div */
-
-/* testimonial sction */
-
-
-
-
-
-
-
-/* testimonial sction */
-.Testimonial{
+.testimonial-div{
     height: 392px;
     width: 100%;
-    background-color: #C271FF;
-     justify-content: center;
-     display: flex;
-     align-items: center;
-       font-size: 20px;
-       gap: 20px;  
-}
-
-
-
-
-.man{
-      height: 150px;
-    width: 150px;
-    border-radius: 160px;
-    
-}
-
-.text{
-    color: rgb(0, 0, 0);
+    background: #C271FF;
+    align-items: center;
     display: flex;
-   flex-direction: column;
-
-
-
-}
-
-
-/* testimonial sction */
-
-/* .Most popular tutorials */
-
-
-
-
-.imgs-div{
-
-height: 250px;
-width: 1228px;
-align-items: center
-;
-display: flex;
-justify-content: center;
-background-color: rgb(255, 255, 255);
-margin-bottom: 1%;
-margin: auto;
-gap: 1%;
-flex-direction: row;
-
-}
-
-
-
-.heading{
-    font-size: 34px;
-    margin-top: 2%;
-    /* align-items: center; */
     justify-content: center;
+    gap: 1%;
+
+}
+ 
+.testimonial-image{
+    height: 160px;
+    width: 160px;
+    /* background-color: aqua; */
+    border-radius: 80px;
+}
+.test-img{
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
 }
 
-
+.tutorials-section {
+  max-width: 1200px;
+  margin: 0 auto;           
+  padding: 40px 20px;
+  background-color: white;  
+}
 
 span{
     color: #C271FF;
 }
-/* .Most popular tutorials */
 
-/* free membership */
-.Membership{
-    height: 400px;
-    width: 100%;
-    background-color: #071629;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    
-    
+.tutorials-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
 
-;
+.tutorials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
 
+.tutorials-video {
+  width: 255px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+
+.tutorials-image {
+  width: 255px;
+  height: 154px;
+  margin-bottom: 10px;
+  
+}
+
+.tutorials-video p {
+  margin: 0 0 10px 0;
+  color: #000;
 }
 
 
+.free-membership {
+  width: 100%;
+  background-color: #071629;
+  padding: 50px;
+  text-align: center;
+  height: 260px;
+  
+  
+}
+
+.free-title {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.smile-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;     
+  gap: 90px;
+  margin-bottom: 30px; 
+}
+
+.smile {
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 16px;
+}
+
+.smile img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #C271FF;
+  color: #000000;
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 26px;
+  width: 85px;
+  
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
 
 
-.smile{
+     .faq-container {
+      width: 920px;
 
-    color: white;
-    margin-top: 9%;
-    align-items: center;
-    justify-content: ;
-    height: 50px;
+      padding: 40px;
+      
+      
+     
+    }
+
+    .faq-title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .faq-item h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .faq-item p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    footer{
+        height: 249px;
+        width: 100%;
+          background-color: #071629;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          /* justify-content: space-between; */
+          
+
+    }
+
     
+
+.lg{
+
+padding: 2%;
+
+
+
 }
