@@ -15,7 +15,9 @@ body{
     padding: 0;
     height: 100%;
     /* font-family: 'Courier New', Courier, monospace; 
+
     */
+    
 }
 html {
   font-family: "Source Sans 3", sans-serif;
@@ -242,9 +244,9 @@ span{
 .free-membership {
   width: 100%;
   background-color: #071629;
-  padding: 50px;
+  /* padding: 50px; */
   text-align: center;
-  height: 260px;
+  height: 360px;
   
   
 }
@@ -253,6 +255,7 @@ span{
   color: #fff;
   font-size: 25px;
   margin-bottom: 30px;
+  margin-top: 2%;
 }
 
 .smile-row {
@@ -261,6 +264,7 @@ span{
   flex-wrap: wrap;     
   gap: 90px;
   margin-bottom: 30px; 
+  padding-top: 15px;
 }
 
 .smile {
@@ -268,6 +272,7 @@ span{
   text-align: center;
   font-size: 10px;
   padding-bottom: 16px;
+  padding-left: 12px;
 }
 
 .smile img {
@@ -293,9 +298,10 @@ span{
 
 
      .faq-container {
-      width: 920px;
+      width: 100%;
+      height: 400px;
 
-      padding: 40px;
+      /* padding: 40px; */
       
       
      
@@ -306,12 +312,15 @@ span{
       font-size: 32px;
       font-weight: 300;
       margin-bottom: 40px;
+      padding-top: 20px;
     }
 
     .faq-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 30px;
+      gap: 20px;
+      padding: 35px;
+      
     }
 
     .faq-item h3 {
@@ -321,29 +330,75 @@ span{
     }
 
     .faq-item p {
-      font-size: 14px;
+      font-size: 12px;
       line-height: 1.6;
       color: #555;
     }
+.footer {
+  background-color: #071629;
+  height: 200px;
+  display: flex;
+  justify-content: space-between; 
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* padding: 0 5rem; */
+}
 
-    footer{
-        height: 249px;
-        width: 100%;
-          background-color: #071629;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          /* justify-content: space-between; */
-          
+.footer-left {
+  display: flex;
+  align-items: center;
+  /* gap: 10px;  */
+  margin-left: 4%;
+  justify-content: center;
+}
 
-    }
+.footer-left .logo {
+  width: 20px;  
+  height: auto;
+}
 
-    
+.footer-left .brand {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
 
-.lg{
+.footer-right a img {
+  width: 20px; 
+  height: 20px;
+  margin-left: 15px;
+  transition: opacity 0.3s;
+}
 
-padding: 2%;
+.footer-right {
+  margin-right: 4%;
+  display: flex;
+}
+
+.footer-right a img:hover {
+  opacity: 0.7;
+}
+
+/* copyright text */
+.copy-text {
+  
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  
+  
+  
+}
 
 
-
+.icons{
+  display: flex;
+  margin: auto;
+  /* padding-left: 2%; */
+  justify-content: space-between;
+  width: 100%;
+  background-color: #071629;
+ 
 }
